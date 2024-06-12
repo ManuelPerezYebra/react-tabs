@@ -1,11 +1,10 @@
 import { GlobalStyles } from "./GlobalStyles/GlobalStyles";
+import Tabs from "./components/tabs/Tabs";
 
 const App = () => {
 	return <>
 	<GlobalStyles></GlobalStyles>
-	<h1>Núcleo de la aplicación</h1>;
-	
-	
+	<Tabs></Tabs>
 	</> 
 	
 };
